@@ -67,6 +67,9 @@ nav ul li a:hover {
   background-color: #283E4A;
   color: #fff;
   padding: 30px 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 /* Shared styles for sections */
@@ -454,4 +457,10 @@ nav ul li a:hover {
 .savings-suggestion {
   margin-top: 20px;
   font-weight: bold;
+}
+.social-icons{
+  display: flex;
+  justify-content:  center;
+  gap:  20px;
+
 }
