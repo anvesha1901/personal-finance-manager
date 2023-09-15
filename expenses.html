@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expenses - Personal Finance Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Personal Finance Manager</h1>
+  <nav>
+    <ul>
+      <li><a href="usermain.html">Home</a></li>
+      <li><a href="expenses.html">Expenses</a></li>
+      <li><a href="Savings.html">Budgeting</a></li>
+      <li><a href="investments.html">Investments</a></li>
+      <li><a href="articles.html">Good Articles</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="expenses">
+  <h2>Track Your Expenses</h2>
+  <div class="container">
+    <div class="expense-form">
+      <form id="expenseForm"> <!-- Added the form element -->
+        <label for="expenseDate">Date:</label>
+        <input type="date" id="expenseDate">
+        <label for="expenseAmount">Amount:</label>
+        <input type="number" id="expenseAmount" placeholder="Enter amount">
+        <button id="addExpenseButton">Add Expense</button>
+      </form>
+    </div>
+
+    <div class="expense-list">
+      <!-- Expenses will be dynamically added here -->
+    </div>
+    <div class="expense-graph">
+      <canvas id="monthlyExpenseChart"></canvas>
+    </div>
+    <div class="expense-chart">
+      <canvas id="expenseChart"></canvas>
+    </div>
+    <div class="expense-item"></div>
+  </div>
+  <div class="savings-suggestion">
+    <p id="savingsSuggestion">Here's a personalized savings suggestion for you:</p> <!-- Corrected ID to "savingsSuggestion" -->
+  </div>
+</section>
+<section class="investment-suggestions">
+  <h2>Investment Suggestions</h2>
+  <p id="investmentSuggestion">Here's a personalized investment suggestion for you:</p>
+  <a href="investments.html" class="cta-button">Explore Investments</a>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+
+<footer class="footer">
+<div class="container">
+  <p>&copy; 2023 Personal Finance Manager. All rights reserved.</p>
+</div>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>

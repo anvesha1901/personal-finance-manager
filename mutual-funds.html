@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ... Your existing head content ... -->
+  <script>
+    function toggleContent(contentId) {
+      var content = document.getElementById(contentId);
+      content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+  <title>Mutual Funds</title>
+</head>
+<body>
+
+<header class="header">
+  <!-- ... Your existing header content ... -->
+</header>
+
+<section class="investment-details">
+  <div class="container">
+    <h2>Mutual Funds Investment</h2>
+    <p>Here you can learn more about investing in mutual funds.</p>
+    <button onclick="toggleContent('mutualFundsDetails')">Show Details</button>
+    <div id="mutualFundsDetails" style="display: none;">
+      <article>
+        <h2>Narendra Modi</h2>
+        <i>(Naam to suna hi hoga) </i>
+        <p>Narendra DamodarDas Modi is the 15th and current Prime Minister of India,
+          Modi, a leader of the Bharatiya Janata Party (BJP), previously served as the Chief Minister
+          of Gujarat state from 2001 to 2014. He is currently the Member of Parliament (MP) from Varanasi. </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2023 Personal Finance Manager. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

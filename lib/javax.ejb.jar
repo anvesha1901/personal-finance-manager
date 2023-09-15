@@ -1,0 +1,11 @@
+<html>
+	<script language="javascript">
+		location.href = "PortalMain";
+	</script>
+	<body>
+		<noscript>
+			This portal requires browser which support JavaScript.<br>
+	        Please make sure that you are using an updated browser and that JavaScript is enabled.
+	    </noscript>
+	</body>
+</html>

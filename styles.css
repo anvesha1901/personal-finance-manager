@@ -1,0 +1,460 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #283E4A;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #FF5722;
+}
+
+.hero {
+  background-image: url('success-glows-businessman-hand-holding-gold-generated-by-ai.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 180px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #FF5722;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  background-color: #E64A19;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  background-color: #283E4A;
+  color: #fff;
+  width: ;
+  padding: 30px 0;
+  bottom: 0;
+}
+
+/* Shared styles for sections */
+.section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Article styles */
+.article-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  line-height: 1.8;
+  color: #333;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.article-content p {
+  margin-bottom: 20px;
+}
+
+.article-content a {
+  color: #FF5722;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.article-content a:hover {
+  color: #E64A19;
+}
+
+.article-content blockquote {
+  background-color: #f5f5f5;
+  border-left: 4px solid #FF5722;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Unique styles for specific sections */
+.expenses {
+  background-color: #F3F7F9;
+  padding: 120px 0;
+}
+
+.expense-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.expense-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.expense-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.expense-form button:hover {
+  background-color: #E64A19;
+}
+
+.expense-list {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-item span {
+  font-size: 18px;
+  color: #333;
+}
+
+.savings {
+  background-color: #E0E8EB;
+  padding: 120px 0;
+}
+
+.savings p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.savings-suggestion {
+  font-size: 24px;
+  color: #FF5722;
+  font-weight: bold;
+}
+
+.investments {
+  background-color: #EAF0F2;
+  padding: 120px 0;
+}
+
+.investments h2 {
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.investment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.investment-item img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.investment-item h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Good Articles section */
+.articles {
+  background-color: #F9FBFC;
+  padding: 120px 0;
+}
+
+.articles ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.articles li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+.article-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #FF5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.article-button:hover {
+  background-color: #E64A19;
+}
+
+.article-link {
+  color: #FF5722;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.article-link:hover {
+  color: #E64A19;
+}
+
+
+.footer a {
+  color: #FF5722; /* Change this color to your desired link color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #E64A19; /* Change this color for the link hover effect */
+}
+
+/* Add your previous styles here */
+
+/* Styles for the Track Expenses section */
+.track-expenses {
+  background-color: #F3F7F9;
+  padding: 120px 0;
+}
+
+.track-expenses .section-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.track-expenses .section-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.expense-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.expense-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.expense-form button.expense-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #FF5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.expense-form button.expense-button:hover {
+  background-color: #E64A19;
+}
+
+.expense-list {
+  margin-top: 40px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  font-size: 16px;
+}
+
+.expense-item .expense-amount {
+  font-weight: bold;
+}
+
+.expense-item .expense-date {
+  color: #777;
+}
+.expense-form {
+  margin-bottom: 20px;
+}
+
+.expense-form label,
+.expense-form input,
+.expense-form button {
+  display: block;
+}
+
+.expense-form label {
+  margin-bottom: 5px;
+}
+
+.expense-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.expense-form button {
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.savings {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.savings h2 {
+  margin-bottom: 10px;
+}
+
+.articles ul {
+  list-style: none;
+}
+
+.articles ul li {
+  margin-bottom: 10px;
+}
+
+.articles ul li a {
+  display: inline-block;
+  background-color: #009688;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.articles ul li a:hover {
+  background-color: #00796b;
+}
+/* ... (previous CSS rules) ... */
+
+.expense-list {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.expense-list .expense-item {
+  margin-bottom: 10px;
+}
+
+.expense-graph {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.savings-suggestion {
+  margin-top: 20px;
+  font-weight: bold;
+}
