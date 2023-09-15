@@ -63,13 +63,10 @@ nav ul li a:hover {
 }
 
 .footer {
-  position: fixed;
   text-align: center;
   background-color: #283E4A;
   color: #fff;
-  width: ;
   padding: 30px 0;
-  bottom: 0;
 }
 
 /* Shared styles for sections */
